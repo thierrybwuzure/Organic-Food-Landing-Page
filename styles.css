@@ -7,12 +7,17 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
+
+/* Body */
 
 body {
   font-family: sans-serif;
   background-color: rgb(247, 240, 230);
 }
+
+/* Header */
 
 #header {
   width: 100%;
@@ -25,6 +30,8 @@ body {
   top: 0;
 }
 
+/* Logo */
+
 .logo {
   width: 80vw;
 }
@@ -34,6 +41,8 @@ body {
   margin-top: 5px;
   border-radius: 0px;
 }
+
+/* Navbar */
 
 nav {
   display: flex;
@@ -69,6 +78,8 @@ a:hover {
   font-weight: 500;
 }
 
+/* Hero */
+
 #hero {
   text-align: center;
   margin-top: 100px;
@@ -79,6 +90,12 @@ h2 {
   font-size: 2rem;
   font-weight: 400;
 }
+
+.hero-picture {
+  width: 100vw;
+}
+
+/* Form */
 
 #form {
   margin-top: 50px;
@@ -115,6 +132,8 @@ h2 {
   transition-duration: 1s;
 }
 
+/* Image */
+
 #image {
   text-align: center;
   margin-top: 30px;
@@ -123,6 +142,8 @@ h2 {
 img {
   border-radius: 5px;
 }
+
+/* Features */
 
 .container {
   display: block;
@@ -156,7 +177,6 @@ img {
   font-size: 1.7rem;
   margin: 0 auto;
   margin-right: 30px;
-  /* border: 1px solid black; */
 }
 
 #features h2 {
@@ -179,9 +199,27 @@ img {
   text-align: center;
 }
 
+/* Pricing */
+
+/* Basket Picture */
+
+.basket-picture {
+  width: 100vw;
+  text-align: center;
+  margin-left: -100px;
+}
+
+.basket-p {
+  font-weight: 300;
+}
+
+/* Farms */
+
 h4 {
   font-weight: 500;
 }
+
+/* La Warde */
 
 #video {
   border-radius: 5px;
@@ -192,7 +230,7 @@ iframe {
   width: 70vw;
   height: 70vh;
   margin-top: 30px;
-  margin-bottom: 70px;
+  margin-bottom: ;
   text-align: center;
 }
 
@@ -203,7 +241,7 @@ iframe {
   justify-content: center;
   gap: 25px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 50px;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
@@ -212,7 +250,7 @@ iframe {
 .falize,
 .warde {
   width: 300px;
-  height: 425px;
+  height: 370px;
   border: 0.5px solid gray;
   border-radius: 10px;
 }
@@ -258,18 +296,18 @@ h4 {
   border-radius: 3px;
   text-transform: uppercase;
   font-size: 1rem;
-  font-family: Roboto;
+  font-family: 'Poppins';
   font-weight: 600;
-  padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .button2:hover {
-  background-color: green;
-  color: #fff;
+  background-color: orange;
   cursor: pointer;
   transition-duration: 0.5s;
 }
+
+/* Footer */
 
 footer {
   background-color: lightgray;
@@ -281,13 +319,26 @@ footer {
 
 .link {
   font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
   font-weight: 400;
+}
+
+.link:hover {
+  color: black;
+  border-bottom: 1px solid darkgreen;
+  transition-duration: 0.1s;
 }
 
 footer p {
   font-weight: 300;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 35px;
+}
+
+.copyright:hover {
+  color: black;
+  border-bottom: none;
+  font-weight: 300;
 }
 
 @media only screen and (max-width: 600px) {
