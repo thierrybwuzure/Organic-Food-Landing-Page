@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(247, 240, 230);
+}
+
+#header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: antiquewhite;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  width: 80vw;
+}
+
+.logo img {
+  width: 7vw;
+  margin-top: 5px;
+  border-radius: 0px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-bar > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-right: 50px;
+}
+
+a {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  border-bottom: 5px solid rgb(0, 142, 0);
+  color: darkgreen;
+  font-weight: 500;
+}
+
+#hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#form {
+  margin-top: 50px;
+}
+
+#email {
+  width: 400px;
+  height: 40px;
+  padding: 7px;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 0.5px solid gray;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.button {
+  width: 160px;
+  height: 40px;
+  background-color: gold;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 18px;
+  padding: 10px;
+}
+
+.button:hover {
+  background-color: orange;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+#image {
+  text-align: center;
+  margin-top: 30px;
+}
+
+img {
+  border-radius: 5px;
+}
+
+.container {
+  display: block;
+  margin: 100px 5vw;
+  margin-top: 100px;
+  padding: 10px;
+  max-width: 100vw;
+}
+
+#features {
+  width: 900px;
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.grid {
+  display: flex;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: green;
+  font-size: 1.7rem;
+  margin: 0 auto;
+  margin-right: 30px;
+  /* border: 1px solid black; */
+}
+
+#features h2 {
+  font-size: 1.8rem;
+}
+.description {
+  width: 800px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+.grid p {
+  margin-top: 5px;
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+.products {
+  margin: 75px;
+  text-align: center;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+#video {
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+iframe {
+  width: 70vw;
+  height: 70vh;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+/* Food Prices */
+
+.farms {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+.mish-mash,
+.falize,
+.warde {
+  width: 300px;
+  height: 425px;
+  border: 0.5px solid gray;
+  border-radius: 10px;
+}
+
+div > h3,
+h4,
+p {
+  margin: 25px auto;
+}
+
+.food {
+  background: green;
+  color: white;
+  height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+h4 {
+  font-size: 1.7rem;
+  color: darkgreen;
+}
+
+.variety {
+  font-size: 1.2rem;
+}
+
+.button2 {
+  width: 120px;
+  height: 40px;
+  background-color: gold;
+  border: 0.5px solid black;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: Roboto;
+  font-weight: 600;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.button2:hover {
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+footer {
+  background-color: lightgray;
+  color: green;
+  height: 150px;
+  padding: 30px;
+  text-align: center;
+}
+
+.link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+footer p {
+  font-weight: 300;
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+}
