@@ -542,7 +542,7 @@ footer p {
   #header {
     height: auto;
     /* Let height adjust automatically */
-    flex-direction: column;
+    flex-direction: row;
     /* Stack logo and nav vertically */
     padding: 10px 0;
     text-align: center;
