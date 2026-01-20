@@ -650,7 +650,7 @@ footer p {
   .grid {
     flex-direction: column;
     /* Stack icon and text vertically */
-    text-align: center;
+    text-align: left;
     padding: 15px;
   }
 
