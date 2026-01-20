@@ -23,27 +23,29 @@ body {
 
 #header {
   width: 100%;
-  height: 12vh;
+  height: 5vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: rgb(247, 240, 230);
   position: fixed;
   top: 0;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgb(221, 220, 220);
 }
 
 /* Logo */
 
-.logo {
-  width: 100vw;
+#header-img {
+  width: 45px;
+
 }
 
 .logo img {
-  width: 95px;
+  width: 55px;
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-  margin: 5px
+  margin: 10px;
 }
 
 /* Navbar */
@@ -51,6 +53,7 @@ body {
 nav {
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
 }
 
 #nav-bar>ul {
@@ -85,9 +88,12 @@ a:hover {
   font-weight: 500;
 }
 
-.image p,
 .image h4 {
+  height: auto;
+  font-size: 1.8rem;
   margin-top: 7px;
+  padding: 25px;
+  text-align: center;
 }
 
 /* Hero */
@@ -124,6 +130,7 @@ h2 {
 
 .mish-mash-p,
 .strawberry-p {
+  font-size: 1rem;
   margin-bottom: 80px;
 }
 
@@ -260,6 +267,22 @@ input {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
+.farm-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.farm-txt {
+  width: 75vw;
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 25px auto;
+}
+
 /* Video */
 
 #video {
@@ -276,9 +299,6 @@ iframe {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.products p {
-  margin-top: 7px;
-}
 
 /* Banner */
 
@@ -493,10 +513,15 @@ footer p {
 
   /* Navigation becomes vertical and centered */
   #nav-bar ul {
+    display: flex;
     flex-direction: column;
     /* Stack menu items vertically */
     gap: 15px;
     /* Space between menu items */
+    border: 1px solid black;
+    width: 25vw;
+    margin: 0 auto;
+    padding: 30px;
   }
 
   li {
