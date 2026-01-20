@@ -652,6 +652,17 @@ footer p {
     /* Stack icon and text vertically */
     text-align: left;
     padding: 15px;
+    font-size: 0.5;
+    width: 100%;
+  }
+
+  .description p {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  image h4 {
+    font-size: 0.7rem;
   }
 
   #features .icon {
@@ -664,6 +675,18 @@ footer p {
     width: 100%;
     /* Full width */
     margin-top: 0;
+  }
+
+  .farm-title {
+    font-size: 1rem;
+  }
+
+  .image h4 {
+    font-size: 1rem;
+  }
+
+  .image p {
+    font-size: 1rem;
   }
 
   /* Video becomes smaller */
