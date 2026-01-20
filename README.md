@@ -1,8 +1,10 @@
 # Organic Food Landing Page 🌱
 
+Visit the website here https://thierrybwuzure.github.io/Organic-Food-Landing-Page/
+
 A beautiful, responsive landing page showcasing local organic farms and their fresh products.
 
-## 🌟 Features
+## Features
 
 - **Responsive Design**: Optimized for desktop, tablet, and mobile devices
 - **Modern UI**: Clean design with smooth animations and hover effects
@@ -11,7 +13,7 @@ A beautiful, responsive landing page showcasing local organic farms and their fr
 - **Video Integration**: Embedded farm documentary
 - **Contact Form**: Email subscription form for updates
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **HTML5**: Semantic markup structure
 - **CSS3**: Modern styling with Flexbox and custom properties
@@ -19,13 +21,13 @@ A beautiful, responsive landing page showcasing local organic farms and their fr
 - **Font Awesome**: Icon library for visual elements
 - **Responsive Design**: Mobile-first approach with media queries
 
-## 🏞️ Featured Farms
+## Featured Farms
 
 1. **Mish Mash Farm** - Fresh vegetables and seasonal produce
 2. **Domaine de la Falize** - Premium strawberries and berries
 3. **La Ferme de la Warde** - Organic dairy products and yogurt
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - A modern web browser
@@ -54,14 +56,14 @@ npx serve .
 
 4. Visit `http://localhost:8000` in your browser
 
-## 📱 Responsive Breakpoints
+## Responsive Breakpoints
 
 - **Mobile**: < 768px
 - **Tablet**: 768px - 1024px  
 - **Desktop**: > 1024px
 - **Large Desktop**: > 1440px
 
-## 🎨 Design Highlights
+## Design Highlights
 
 - **Color Palette**: Warm earth tones with green accents
 - **Typography**: Poppins font for modern readability
@@ -69,7 +71,7 @@ npx serve .
 - **Images**: High-quality farm and product photography
 - **Interactions**: Smooth hover effects and transitions
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Landing-Page/
@@ -90,11 +92,11 @@ Landing-Page/
 └── .gitignore          # Git ignore file
 ```
 
-## 🌐 Live Demo
+## Live Demo
 
 [View Live Site](https://thierrybwuzure.github.io/Landing-Page) *(Replace with your actual GitHub Pages URL)*
 
-## 📝 Code Highlights
+## Code Highlights
 
 ### Semantic HTML Structure
 - Proper use of semantic elements (`<header>`, `<section>`, `<footer>`)
@@ -108,7 +110,7 @@ Landing-Page/
 - Smooth transitions and animations
 - Mobile-first responsive design
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -118,17 +120,17 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## Author
 
 **Thierry Bwuzure**
 - LinkedIn: [thierrybwuzure](https://www.linkedin.com/in/thierrybwuzure/)
 - GitHub: [@thierrybwuzure](https://github.com/thierrybwuzure)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Farm imagery courtesy of local organic farms
 - Video content by Fonds Baillet Latour Fund
@@ -137,4 +139,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Made with ❤️ and passion for organic farming*
+*Made with passion for organic farming*
