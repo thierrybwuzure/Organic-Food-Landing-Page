@@ -1,6 +1,7 @@
 # Organic Food Landing Page 🌱
 
 A beautiful, responsive landing page showcasing local organic farms and their fresh products.
+
 Visit the website here https://thierrybwuzure.github.io/Organic-Food-Landing-Page/
 
 ## Features
