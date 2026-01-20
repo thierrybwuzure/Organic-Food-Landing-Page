@@ -564,28 +564,34 @@ footer p {
   #nav-bar ul {
     display: flex;
     flex-direction: column;
-    /* Stack menu items vertically */
-    gap: 15px;
-    /* Space between menu items */
-    border: 1px solid black;
+    align-items: center;
+    gap: 10px;
+    border: none;
     width: 25vw;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
   }
 
   li {
     margin-right: 0;
-    /* Remove right margin */
     font-size: 1rem;
-    /* Slightly smaller text */
   }
 
   /* Hero section adjustments */
   #hero {
     margin-top: 20px;
-    /* Less top margin since header is smaller */
     padding: 0 20px;
-    /* Add side padding */
+  }
+
+  .salatin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
   }
 
   h1 {
@@ -607,44 +613,38 @@ footer p {
 
   .button {
     width: 140px;
-    /* Smaller button */
     margin: 15px 5px;
-    /* Less margin */
   }
 
   /* Images become responsive */
   .hero-picture-one,
   .hero-picture-two {
     width: 100%;
-    /* Full width of container, not screen */
     height: auto;
-    /* Maintain aspect ratio */
   }
 
   .hero-picture-three {
     width: 80%;
-    /* Smaller but not tiny */
   }
 
   .hero-picture-four {
     width: 45%;
-    /* Two images per row */
     margin: 5px;
-    /* Small margin between images */
   }
 
   /* Features section becomes single column */
   #features {
     width: 95%;
-    /* Almost full width */
     padding: 0 10px;
   }
 
   .title {
-    width: 90%;
-    /* Flexible width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
     font-size: 1.5rem;
-    /* Smaller title */
+    margin: 0 auto;
   }
 
   .grid {
@@ -656,8 +656,8 @@ footer p {
 
   #features .icon {
     margin-right: 0;
-    /* Center the icon */
-    margin-bottom: 15px;
+    font-size: 1rem;
+    padding-top: 25px;
   }
 
   .description {
@@ -669,9 +669,7 @@ footer p {
   /* Video becomes smaller */
   iframe {
     width: 95%;
-    /* Almost full width */
     height: auto;
-    /* Fixed height for mobile */
   }
 
   /* Product cards stack vertically */
@@ -696,14 +694,16 @@ footer p {
 
   /* Logo farms become smaller and stack */
   .logo-farms {
+    height: 100%;
+    display: flex;
     flex-direction: column;
-    /* Stack vertically */
     align-items: center;
     gap: 20px;
+    margin: 30px;
   }
 
   .logo-farms img {
-    max-width: 200px;
+    max-width: 100px;
     /* Smaller logos */
     width: 80%;
   }
