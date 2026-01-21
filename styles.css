@@ -485,7 +485,7 @@ h4 {
 }
 
 #semi1 {
-  background-image: url(/images/mishMash4.jpg);
+  background-image: url(images/mishMash4.jpg);
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -493,7 +493,7 @@ h4 {
 }
 
 #semi2 {
-  background-image: url(/images/laFalizeTomatoes.jpg);
+  background-image: url(images/laFalizeTomatoes.jpg);
   object-fit: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -649,7 +649,7 @@ footer p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 0 auto;
   }
 
