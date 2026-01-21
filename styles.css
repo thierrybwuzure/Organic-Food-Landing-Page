@@ -38,7 +38,6 @@ body {
 
 #header-img {
   width: 2.8rem;
-
 }
 
 .logo {
@@ -81,7 +80,6 @@ li {
   border-radius: 0.3rem;
   margin-right: 3.1rem;
   text-align: center;
-
 }
 
 a {
@@ -114,7 +112,7 @@ a:hover {
 }
 
 h1,
-h2 {
+h3 {
   font-size: 2rem;
   font-weight: 400;
 }
@@ -167,7 +165,8 @@ input {
 }
 
 #email {
-  width: 25rem;
+  width: 100%;
+  max-width: 25rem;
   height: 2.5rem;
   padding: 0.4rem;
   font-size: 1rem;
@@ -227,16 +226,11 @@ input {
   margin-bottom: 3.1rem;
 }
 
-#features h4 {
-  margin-right: 800px;
-  color: black;
-}
-
 .title {
-  text-align: center;
   font-weight: 500;
   font-size: 2rem;
-  width: 15vw;
+  text-align: center;
+  color: black;
 }
 
 .grid {
@@ -264,7 +258,7 @@ input {
 }
 
 .description {
-  width: 800px;
+  max-width: 800px;
   padding: 15px;
   margin: 10px 0 20px 0;
 }
@@ -275,9 +269,14 @@ input {
   margin-top: 5px;
 }
 
+/* Farms Pictures */
 
-.products {
-  text-align: center;
+.farms-pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 
 /* Basket Picture */
@@ -335,10 +334,6 @@ iframe {
   box-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
-
-/* Banner */
-
-
 /* Logo Farms */
 
 .logo-farms img {
@@ -359,7 +354,9 @@ iframe {
   margin-bottom: 6.2rem;
 }
 
-.mish-mash,
+/* Products Boxes */
+
+/* .mish-mash,
 .falize,
 .warde {
   width: 18.75rem;
@@ -368,7 +365,7 @@ iframe {
   border-radius: 0.6rem;
   background-color: white;
   box-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
-}
+} */
 
 .food {
   background: green;
@@ -536,14 +533,10 @@ footer p {
 
 /* Mobile Phones (up to 767px) */
 @media only screen and (max-width: 767px) {
-  /* EXPLANATION: This targets phones in portrait and landscape mode */
 
-  /* Header becomes smaller and stacks vertically */
   #header {
     height: auto;
-    /* Let height adjust automatically */
     flex-direction: row;
-    /* Stack logo and nav vertically */
     padding: 10px 0;
     text-align: center;
   }
@@ -551,13 +544,11 @@ footer p {
   /* Logo gets smaller on mobile */
   .logo {
     width: 100%;
-    /* Take full width instead of 100vw */
     margin-bottom: 10px;
   }
 
   .logo img {
     width: 70px;
-    /* Smaller logo for mobile */
   }
 
   /* Navigation becomes vertical and centered */
@@ -596,19 +587,13 @@ footer p {
 
   h1 {
     font-size: 1.5rem;
-    /* Smaller heading for mobile */
     line-height: 1.3;
-    /* Better line spacing */
   }
 
-  /* Form becomes mobile-friendly */
   #email {
     width: 90%;
-    /* Almost full width */
     max-width: 300px;
-    /* But not too wide */
     font-size: 16px;
-    /* Prevents zoom on iOS */
   }
 
   .button {
@@ -616,7 +601,6 @@ footer p {
     margin: 15px 5px;
   }
 
-  /* Images become responsive */
   .hero-picture-one,
   .hero-picture-two {
     width: 100%;
@@ -649,7 +633,6 @@ footer p {
 
   .grid {
     flex-direction: column;
-    /* Stack icon and text vertically */
     text-align: left;
     padding: 15px;
     font-size: 0.5;
@@ -666,6 +649,10 @@ footer p {
     font-size: 0.7rem;
   }
 
+  #features {
+    width: auto;
+  }
+
   #features .icon {
     margin-right: 0;
     font-size: 1rem;
@@ -674,7 +661,6 @@ footer p {
 
   .description {
     width: 100%;
-    /* Full width */
     margin-top: 0;
   }
 
@@ -696,14 +682,10 @@ footer p {
     height: auto;
   }
 
-  /* Product cards stack vertically */
   .farms {
     flex-direction: column;
-    /* Stack cards vertically */
     align-items: center;
-    /* Center them */
     gap: 30px;
-    /* Space between cards */
     padding: 0 20px;
   }
 
@@ -711,12 +693,9 @@ footer p {
   .falize,
   .warde {
     width: 100%;
-    /* Full width */
     max-width: 300px;
-    /* But not too wide */
   }
 
-  /* Logo farms become smaller and stack */
   .logo-farms {
     height: 100%;
     display: flex;
@@ -728,26 +707,22 @@ footer p {
 
   .logo-farms img {
     max-width: 100px;
-    /* Smaller logos */
-    width: 80%;
+    width: 60%;
   }
 
   /* Footer becomes more compact */
   footer {
     height: auto;
-    /* Let it adjust */
     padding: 20px 15px;
   }
 
   .nav-footer {
     flex-direction: column;
-    /* Stack footer links */
     gap: 10px;
   }
 
   footer p {
     margin-right: 0;
-    /* Remove right margin */
     margin-top: 20px;
     font-size: 0.9rem;
   }
@@ -755,64 +730,52 @@ footer p {
 
 /* Tablets (768px to 1024px) */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-  /* EXPLANATION: This targets tablets in both orientations */
 
-  /* Header adjustments for tablets */
   #header {
     height: 10vh;
-    /* Slightly smaller than desktop */
     padding: 0 20px;
   }
 
   .logo img {
     width: 80px;
-    /* Medium-sized logo */
   }
 
   li {
     margin-right: 40px;
-    /* Less spacing than desktop */
     font-size: 1rem;
   }
 
   /* Hero adjustments */
   h1 {
     font-size: 2.2rem;
-    /* Between mobile and desktop */
   }
 
   #email {
     width: 350px;
-    /* Smaller than desktop */
   }
 
-  /* Features section for tablets */
   #features {
     width: 90%;
   }
 
   .title {
     width: 40%;
-    /* More flexible */
   }
 
   /* Product cards - 2 per row on tablets */
   .farms {
     flex-wrap: wrap;
-    /* Allow wrapping */
     justify-content: center;
   }
 
   .mish-mash,
   .falize {
     width: 45%;
-    /* Two cards per row */
     margin-bottom: 20px;
   }
 
   .warde {
     width: 45%;
-    /* Third card on second row */
   }
 
   /* Video size for tablets */
@@ -824,60 +787,44 @@ footer p {
 
 /* Large Desktops (1440px and up) */
 @media only screen and (min-width: 1440px) {
-  /* EXPLANATION: This targets very large screens */
 
-  /* Make content not too spread out on huge screens */
   .container {
-    /* Limit container width */
     margin: 0 auto;
-    /* Center it */
   }
 
   #features {
     max-width: 1000px;
-    /* Don't let it get too wide */
   }
 
   h1 {
     font-size: 3rem;
-    /* Larger heading for big screens */
   }
 
   .farms {
     max-width: 1200px;
-    /* Limit width */
     margin: 45px auto 100px;
-    /* Center the cards */
   }
 }
 
 /* Mobile Landscape Mode (Special case) */
 @media only screen and (max-width: 767px) and (orientation: landscape) and (max-height: 500px) {
-  /* EXPLANATION: This targets phones in landscape mode (turned sideways) */
-
-  /* Header becomes even more compact */
   #header {
     height: 50px;
-    /* Very small header */
     flex-direction: row;
-    /* Back to horizontal for landscape */
     padding: 5px 20px;
   }
 
   .logo img {
     width: 50px;
-    /* Tiny logo */
   }
 
   #nav-bar ul {
     flex-direction: row;
-    /* Horizontal menu */
     gap: 10px;
   }
 
   li {
     font-size: 0.9rem;
-    /* Small text */
     margin-right: 15px;
   }
 
@@ -889,20 +836,17 @@ footer p {
 
   h1 {
     font-size: 1.3rem;
-    /* Even smaller for landscape */
   }
 
   /* Images in landscape */
   .hero-picture-four {
     width: 30%;
-    /* Three images per row in landscape */
   }
 
   /* Product cards in landscape - horizontal scroll */
   .farms {
     flex-direction: row;
     overflow-x: auto;
-    /* Allow horizontal scrolling */
     justify-content: flex-start;
     padding: 0 20px;
     gap: 20px;
@@ -912,31 +856,23 @@ footer p {
   .falize,
   .warde {
     flex-shrink: 0;
-    /* Prevent shrinking */
     width: 250px;
-    /* Fixed width for scrolling */
     height: 300px;
-    /* Shorter height */
   }
 }
 
 /* High DPI/Retina Displays */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi) {
-  /* EXPLANATION: This targets high-resolution screens (like iPhone Retina, MacBook Pro) */
 
-  /* Sharper images and crisper text */
   .logo img {
     image-rendering: -webkit-optimize-contrast;
-    /* Sharper images */
   }
 
-  /* Slightly thicker borders for retina clarity */
   .grid,
   .mish-mash,
   .falize,
   .warde {
     border-width: 1px;
-    /* Thicker border for high DPI */
   }
 }
