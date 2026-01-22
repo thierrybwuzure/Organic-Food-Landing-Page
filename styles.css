@@ -953,6 +953,47 @@ footer p {
     width: 250px;
     height: 300px;
   }
+
+  /* Image paragraph section in landscape */
+  .image-paragraph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  #description {
+    width: 50%;
+    margin: 0;
+  }
+
+  .pre-footer {
+    width: 50%;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 150px;
+  }
+
+  /* Farm logos in landscape - horizontal row */
+  .logo-farms {
+    flex-direction: row;
+    gap: 15px;
+    margin: 20px;
+  }
+
+  .logo-farms img {
+    width: 20%;
+    max-width: 80px;
+  }
+
+  /* Farm pictures in landscape - stay horizontal */
+  .farms-pictures {
+    flex-direction: row;
+  }
+
+  .hero-picture-four {
+    width: 30%;
+  }
 }
 
 /* High DPI/Retina Displays */
