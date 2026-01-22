@@ -163,6 +163,7 @@ input {
   font-family: 'Inter', sans-serif;
   font-size: 1.1rem;
   font-weight: 600;
+  color: #000000;
   text-transform: uppercase;
   border-radius: 0.2rem;
   border: 0.03rem solid gray;
@@ -683,6 +684,7 @@ footer p {
     margin: 15px 5px;
     font-size: 0.8rem;
     margin: 25px;
+    color: #000000;
   }
 
   .hero-picture-one,
