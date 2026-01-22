@@ -17,12 +17,16 @@
   <!-- Header -->
   <div class="page-wrapper">
     <header id="header">
-      <input type="checkbox" id="menu-toggle">
+      <input type="checkbox" id="menu-toggle" aria-label="Enter your email address">
       <div class="logo">
         <img id="header-img" alt=""
           src="https://img.freepik.com/premium-vector/100-percent-fresh-organic-food-logo-design-with-illustration-fresh-abstract-leaves-circles_567423-704.jpg" />Homegrown
         Organic
       </div>
+
+      <!-- Navbar -->
+
+      <!-- Menu Toggle -->
 
       <label for="menu-toggle" class="hamburger">
         <span></span>
@@ -30,9 +34,11 @@
         <span></span>
       </label>
 
+      <!-- Desktop Navbar -->
+
       <nav id="nav-bar">
         <ul>
-          <li><a class="nav-link" href="#image">Home</a></li>
+          <li><a class="nav-link" href="#hero-container">Home</a></li>
           <li><a class="nav-link" href="#goodies">About</a></li>
           <li><a class="nav-link" href="#farms">Farms</a></li>
           <li><a class="nav-link" href="#pricing">Products</a></li>
@@ -43,18 +49,23 @@
 
   <!-- Hero -->
 
-  <section class="image" id="image">
-    <section id="hero">
+  <section class="image hero-container" id="hero-container">
+    <section class="hero" id="hero">
+
       <h1>Homegrown Organic Food</h1>
 
+      <!-- Form -->
       <form id="form" action="#">
         <label for="email"></label>
         <input type="email" name="email" id="email" placeholder="Enter your email address" required /><br>
-        <input class="button" type="submit" id="submit" value="Get Started" />
+        <input class="button" type="submit" id="submit" value="Get started" />
       </form>
     </section>
+
+    <!-- Hero Picture -->
     <img class="hero-picture-one" alt="" src="images/hero-image.jpg">
-    <!-- <p class="salatin"><i>“One of the greatest assets of a farm is the sheer ecstasy of life.”</i> — Joel Salatin</p> -->
+
+    <!-- Quote -->
     <blockquote class="organic-pull-quote">
       <p>"The first efficiency of any social system is the health of its people."</p>
       <cite>— Joel Salatin</cite>
@@ -135,7 +146,7 @@
   </div>
   <!-- Farms -->
   <div class="image one">
-    <section class="image">
+    <section class="farms-title">
       <h4>Mish Mash</h4>
       <p class="farm-txt">Mish Mash is a small agroecological family farm in Sint-Pieters-Leeuw. We are located a
         stone's throw from Neerpede,
@@ -154,7 +165,7 @@
   </div>
 
   <div class="image two">
-    <section class="image">
+    <section class="farms-title">
       <h4>La Falize</h4>
       <p class="farm-txt">In the heart of the Namur region, Domaine la Falize counts more than 200 hectares of forests
         and arable land. For the
@@ -171,7 +182,7 @@
   </div>
 
   <section class="products">
-    <div class="image two">
+    <div class="image two farms-title">
       <h4>La Warde</h4>
       <p class="farm-txt">Discover the journey of Ferme de La Warde as they transition to sustainable, organic farming
         practices. This
