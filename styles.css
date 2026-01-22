@@ -569,6 +569,21 @@ footer {
   box-shadow: 0.3rem 0.3rem 9.4rem rgba(0, 0, 0, 0.1);
 }
 
+.nav-footer {
+  display: inline-block;
+  color: #000000;
+  list-style-type: none;
+}
+
+.nav-footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav-footer li {
+  display: inline-block;
+}
+
 .link {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
@@ -578,7 +593,6 @@ footer {
 
 .link:hover {
   color: black;
-  background-color: #3a90c2;
   transition-duration: 0.1s;
 }
 
@@ -587,6 +601,11 @@ footer p {
   text-align: center;
   margin-top: 35px;
   margin-right: 80px;
+}
+
+.copyright {
+  text-decoration: none;
+  color: #000000;
 }
 
 .copyright:hover {
@@ -825,6 +844,13 @@ footer p {
     margin-right: 0;
     margin-top: 20px;
     font-size: 0.9rem;
+  }
+
+  .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
