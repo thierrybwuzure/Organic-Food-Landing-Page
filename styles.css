@@ -12,6 +12,12 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --brand-green: #4a7c44;
+  --bg-color: rgb(247, 240, 230);
+  --shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
 /* Body */
 
 body {
@@ -32,6 +38,7 @@ body {
   background-color: rgb(247, 240, 230);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgb(221, 220, 220);
+  z-index: 100;
 }
 
 /* Logo */
@@ -232,7 +239,7 @@ input {
   content: "”";
   position: absolute;
   bottom: -30px;
-  right: 20px;
+  right: 50px;
   font-size: 80px;
   color: rgba(74, 124, 68, 0.1);
   font-family: serif;
@@ -285,7 +292,7 @@ input {
   margin-left: 10px;
 }
 
-#features h2 {
+#features h3 {
   font-size: 1.8rem;
   font-weight: 400;
   color: green;
@@ -326,6 +333,7 @@ input {
   align-items: center;
   margin: 70px;
   font-size: 2.5rem;
+  font-weight: 300;
 }
 
 .farms-profile h4 {
@@ -412,6 +420,10 @@ iframe {
   gap: 0.3rem;
   margin: 0 auto;
   padding: 0.6rem;
+}
+
+.image-paragraph h2 {
+  font-weight: 500;
 }
 
 #semi1 {

@@ -1,7 +1,6 @@
 // Get Elements
 
 const menuToggle = document.getElementById('menu-toggle');
-const navBar = document.getElementById('nav-bar');
 const navLinks = document.querySelectorAll('.nav-link');
 
 // Close Menu When Clicking A Nav Link
