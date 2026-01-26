@@ -140,7 +140,7 @@ nav {
 }
 
 input {
-  outline: none
+  outline: none;
 }
 
 #email {
@@ -473,7 +473,6 @@ footer p {
   font-weight: 300;
   text-align: center;
   margin-top: 35px;
-  margin-right: 80px;
 }
 
 .copyright {
@@ -610,9 +609,6 @@ footer p {
 
   #features .icon {
     display: none;
-    margin-right: 0;
-    font-size: 1rem;
-    padding-top: 25px;
   }
 
   .description {
@@ -818,10 +814,6 @@ footer p {
   /* Farm pictures in landscape - stay horizontal */
   .farms-pictures {
     flex-direction: row;
-  }
-
-  .hero-picture-four {
-    width: 30%;
   }
 }
 
