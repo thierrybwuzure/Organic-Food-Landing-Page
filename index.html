@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="styles.css" />
   <script src="https://kit.fontawesome.com/b73f025209.js" crossorigin="anonymous"></script>
   <link rel="icon" type="image/x-icon" href="images/organic_logo.jpg">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap
-" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap">
 </head>
 
 <body>
@@ -47,7 +47,7 @@
           <li><a class="nav-link" href="#hero-container">Home</a></li>
           <li><a class="nav-link" href="#goodies">About</a></li>
           <li><a class="nav-link" href="#farms">Farms</a></li>
-          <li><a class="nav-link" href="#footer">Contact</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -242,14 +242,43 @@
 
   </section>
 
+  <!-- Contact -->
+
+  <div class="contact-container" id="contact">
+    <form action="#contact">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="belgium">Belgium</option>
+        <option value="france">France</option>
+        <option value="holland">Holland</option>
+        <option value="luxembourg">Luxembourg</option>
+      </select>
+
+      <input class="submit" type="submit" value="Submit">
+
+    </form>
+  </div>
+
 
   <!-- Footer -->
   <footer>
     <nav class="footer" id="footer">
       <ul class="nav-footer">
-        <li><a class="link" href="#footer">Privacy</a></li>
+        <li><a class="link" href="#hero-container">Home</a></li>
+        <li><a class="link" href="#goodies">About</a></li>
+        <li><a class="link" href="#farms">Farms</a></li>
         <li><a class="link" href="#footer">Terms</a></li>
-        <li><a class="link" href="#footer">Contact</a></li>
+        <li><a class="link" href="#contact">Contact</a></li>
       </ul>
 
       <p>&copy; 2025 Homegrown Organics by<a class="copyright" href="https://www.linkedin.com/in/thierrybwuzure/"
