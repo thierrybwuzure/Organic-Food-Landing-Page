@@ -58,6 +58,13 @@ body {
   margin-left: 1.5rem;
 }
 
+.brand {
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: -1px;
+  color: #345830;
+}
+
 /* Navbar */
 
 nav {
@@ -163,8 +170,9 @@ input {
 }
 
 .button {
+
   width: 10rem;
-  height: 2.3rem;
+  height: 2.5rem;
   background-color: gold;
   font-size: 0.8rem;
   font-weight: 600;
@@ -177,7 +185,6 @@ input {
 
 .button:hover {
   background-color: rgb(255, 189, 67);
-  transform: scale(1.05);
   transition-duration: 0.5s;
   cursor: pointer;
 }
@@ -196,41 +203,51 @@ input {
 
 /* Quote */
 
+.quote-container {
+  height: 20rem;
+}
+
 .organic-pull-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  box-sizing: border-box;
   position: relative;
-  padding: 40px;
   background-color: #f9fbf9;
   border-left: 5px solid #4a7c44;
   font-style: italic;
   text-align: center;
-  margin: 50px;
+  margin: 0 auto;
   z-index: -1;
 }
 
 .organic-pull-quote p {
+  max-width: 75%;
   font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
-  line-height: 1.6;
-  letter-spacing: 1px;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
   color: #2d4a27;
-  margin: 20px;
 }
 
 .organic-pull-quote cite {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: #777;
   font-weight: bold;
   font-style: normal;
+  letter-spacing: 1px;
 }
 
 .organic-pull-quote::before {
   content: "“";
   position: absolute;
-  top: -5px;
+  top: 5px;
   left: 20px;
-  font-size: 80px;
+  font-size: 100px;
   color: rgba(74, 124, 68, 0.1);
   font-family: serif;
 }
@@ -240,7 +257,7 @@ input {
   position: absolute;
   bottom: -30px;
   right: 50px;
-  font-size: 80px;
+  font-size: 100px;
   color: rgba(74, 124, 68, 0.1);
   font-family: serif;
 }
@@ -260,9 +277,9 @@ input {
 }
 
 #features {
+  max-width: 800px;
   margin: 0 auto;
   margin-bottom: 5rem;
-  max-width: 800px;
 }
 
 .title {
@@ -278,7 +295,7 @@ input {
   flex-direction: row;
   background-color: white;
   margin-top: 1.9rem;
-  border-radius: 0.6rem;
+  border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
 }
 
@@ -299,12 +316,10 @@ input {
 }
 
 #description {
-  margin-top: 4rem;
   font-size: 1.2rem;
   font-weight: 300;
   padding: 1.2rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 4rem auto;
 }
 
 .description {
@@ -589,13 +604,23 @@ footer p {
     margin: 5px;
   }
 
+  /* Quote */
+
+  .organic-pull-quote p {
+    font-size: 1rem;
+  }
+
+  .organic-pull-quote cite {
+    font-size: 0.7rem;
+  }
+
   /* Features section becomes single column */
 
   .title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 400;
     margin-top: -25px;
   }
