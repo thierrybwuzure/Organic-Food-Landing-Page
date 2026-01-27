@@ -235,7 +235,6 @@ input {
 .organic-pull-quote cite {
   font-size: 1.1rem;
   text-transform: uppercase;
-  letter-spacing: 2px;
   color: #777;
   font-weight: bold;
   font-style: normal;
@@ -348,7 +347,7 @@ input {
   align-items: center;
   margin: 70px;
   font-size: 2.5rem;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .farms-profile h4 {
@@ -405,6 +404,10 @@ iframe {
 
 /* Logo Farms */
 
+.farms-logo {
+  margin-top: 70px;
+}
+
 .logo-farms {
   display: flex;
   flex-direction: row;
@@ -439,6 +442,10 @@ iframe {
 
 .image-paragraph h2 {
   font-weight: 500;
+}
+
+.image-paragraph p {
+  font-size: 1rem;
 }
 
 #semi1 {
@@ -633,11 +640,6 @@ footer p {
     width: 100%;
   }
 
-  .description p {
-    width: 100%;
-    font-size: 0.8rem;
-    text-align: left;
-  }
 
   #features {
     width: 100%;
@@ -648,13 +650,25 @@ footer p {
     display: none;
   }
 
+  #features h3 {
+    font-size: 1.3rem;
+  }
+
   .description {
     width: 100%;
     margin-top: 0;
   }
 
+  .description p {
+    width: 100%;
+    font-size: 1rem;
+    text-align: left;
+  }
+
+
   .farm-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
   }
 
   /* Farms Headings */
