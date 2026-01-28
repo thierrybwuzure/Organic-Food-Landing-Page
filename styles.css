@@ -156,7 +156,7 @@ nav {
 #hero h2 {
   font-weight: 600;
   color: #0e8f00;
-  -webkit-text-stroke: 1px rgb(70, 70, 70);
+  -webkit-text-stroke: 0.5px rgb(49, 49, 49);
   margin-top: 10px;
 }
 
@@ -239,7 +239,7 @@ input {
 
 .organic-pull-quote p {
   max-width: 75%;
-  font-family: 'Poppins', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.8rem;
   letter-spacing: 2px;
   color: #2d4a27;
