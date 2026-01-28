@@ -25,6 +25,11 @@ body {
   background-color: rgb(247, 240, 230);
 }
 
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* Header */
 
 #header {
@@ -35,6 +40,7 @@ body {
   height: 7vh;
   position: fixed;
   top: 0;
+
   background-color: rgb(247, 240, 230);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgb(221, 220, 220);
@@ -70,7 +76,7 @@ body {
 nav {
   display: flex;
   flex-direction: column;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 #nav-bar>ul {
@@ -93,10 +99,10 @@ nav {
 
 .nav-link {
   display: inline-block;
-  width: 100px;
+  width: 85px;
   height: 50px;
   line-height: 50px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 400;
   border-radius: 3px;
   text-align: center;
@@ -147,6 +153,13 @@ nav {
   text-shadow: 2px 2px 1px #000000;
 }
 
+#hero h2 {
+  font-weight: 600;
+  color: #0e8f00;
+  -webkit-text-stroke: 1px rgb(70, 70, 70);
+  margin-top: 10px;
+}
+
 /* Form */
 
 #form {
@@ -179,6 +192,7 @@ input {
   text-transform: uppercase;
   border-radius: 0.2rem;
   border: 0.03rem solid gray;
+  padding: 0 20px;
   margin: 1.9rem;
 }
 
@@ -225,7 +239,7 @@ input {
 
 .organic-pull-quote p {
   max-width: 75%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', serif;
   font-size: 1.8rem;
   letter-spacing: 2px;
   color: #2d4a27;
@@ -286,6 +300,7 @@ input {
   text-align: center;
   color: whitesmoke;
   text-shadow: 2px 2px 1px #000000;
+  margin-bottom: 100px;
 }
 
 .grid {
@@ -308,7 +323,7 @@ input {
 }
 
 #features h3 {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 400;
   color: green;
 }
@@ -330,7 +345,6 @@ input {
   font-size: 1.1rem;
   font-weight: 300;
   padding: 5px;
-  margin-top: 5px;
 }
 
 /* Farms */
@@ -346,7 +360,7 @@ input {
   align-items: center;
   margin: 70px;
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .farms-profile h4 {
