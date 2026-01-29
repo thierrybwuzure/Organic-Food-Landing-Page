@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 html {
@@ -690,7 +690,7 @@ footer p {
   }
 
   #hero h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     line-height: 1.3;
   }
 
