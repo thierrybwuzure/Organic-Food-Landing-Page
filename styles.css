@@ -532,6 +532,8 @@ iframe {
   margin-top: 5px;
   margin-bottom: 20px;
   padding: 5px;
+  color: #000;
+  border: 1px solid #ccc;
 }
 
 .contact-container label {
@@ -563,6 +565,12 @@ textarea {
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  background-color: rgb(251, 225, 76);
+  color: #000;
+  font-weight: 600;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* Footer */
