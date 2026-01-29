@@ -493,6 +493,11 @@ iframe {
 }
 
 /* Contact Form */
+
+#contact {
+  scroll-margin-top: 14vh
+}
+
 .contact-container {
   display: flex;
   flex-direction: column;
