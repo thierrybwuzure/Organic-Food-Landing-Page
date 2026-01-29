@@ -307,9 +307,9 @@ input {
   display: flex;
   flex-direction: row;
   background-color: white;
-  margin-top: 1.9rem;
   border-radius: 0.3rem;
   box-shadow: 0.3rem 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+  margin-bottom: 5rem;
 }
 
 #features .icon {
@@ -326,13 +326,13 @@ input {
   font-size: 1.7rem;
   font-weight: 400;
   color: green;
+  padding: 15px;
 }
 
 #description {
   font-size: 1.2rem;
   font-weight: 300;
   padding: 1.2rem;
-  margin: 4rem auto;
 }
 
 .description {
@@ -344,7 +344,8 @@ input {
 .grid p {
   font-size: 1.1rem;
   font-weight: 300;
-  padding: 5px;
+  margin-top: -25px;
+  padding: 15px;
 }
 
 /* Farms */
@@ -484,7 +485,7 @@ iframe {
   justify-content: center;
   align-items: center;
   max-width: 40%;
-  margin: 50px auto;
+  margin: 10rem auto;
   padding: 20px;
   background-color: #32562e;
   border-radius: 5px;
