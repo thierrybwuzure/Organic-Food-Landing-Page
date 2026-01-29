@@ -280,7 +280,7 @@ input {
 }
 
 
-/* Features */
+/* Features (About) */
 
 #goodies {
   height: 100%;
@@ -289,7 +289,7 @@ input {
 }
 
 .container {
-  background: linear-gradient(180deg, #3a90c2 0%, #F7F0E6 95%, #F7F0E6 80%);
+  background: linear-gradient(180deg, #1b541b 0%, #F7F0E6 95%, #F7F0E6 80%);
   max-width: 100%;
 }
 
