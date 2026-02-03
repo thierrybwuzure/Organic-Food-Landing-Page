@@ -564,12 +564,18 @@ textarea {
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
-  background-color: rgb(251, 225, 76);
-  color: #000;
+  background-color: antiquewhite;
+  color: #32562e;
   font-weight: 600;
-  border: 1px solid #ccc;
+  border: none;
   -webkit-appearance: none;
   appearance: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-container .submit:hover {
+  background-color: #f5ca8a;
+  color: #32562e;
 }
 
 /* Footer */
