@@ -772,6 +772,7 @@ footer p {
 
   #features {
     width: 100%;
+    padding: 0 20px;
   }
 
   #features .icon {
