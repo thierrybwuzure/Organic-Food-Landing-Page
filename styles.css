@@ -1,7 +1,6 @@
 /* Global Reset */
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,6 +10,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 :root {
@@ -24,6 +24,7 @@ html {
 body {
   width: 100%;
   background-color: rgb(247, 240, 230);
+  overflow-x: hidden;
 }
 
 .wrapper {
