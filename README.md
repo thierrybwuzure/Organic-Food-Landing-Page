@@ -28,7 +28,8 @@ Homegrown Organics connects consumers with local Belgian farms selling certified
 
 ## Features
 
-- Mobile-first responsive design (4 breakpoints)
+- Mobile-first responsive design (4 breakpoints: mobile, tablet, desktop, large desktop)
+- CSS-based hamburger menu enhanced with JavaScript (auto-close on link click and outside click)
 - Flexbox & CSS Grid layouts
 - Smooth animations and hover effects
 - Interactive farm image galleries
@@ -41,7 +42,7 @@ Homegrown Organics connects consumers with local Belgian farms selling certified
 - Mobile-first design approach and media query strategy
 - Combining Flexbox and Grid in the same project
 - Integrating third-party libraries (Font Awesome, Google Fonts)
-- Adding basic JavaScript interactivity to a static page
+- Enhancing a CSS-only hamburger menu with JavaScript for better UX (event listeners, DOM manipulation)
 
 ---
 
