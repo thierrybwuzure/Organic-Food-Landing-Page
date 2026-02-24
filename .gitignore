@@ -99,6 +99,10 @@ temp/
 ehthumbs.db
 Thumbs.db
 
+# Personal notes & documents
+*.txt
+*.pdf
+
 # Local development
 .env.local
 .env.development.local
