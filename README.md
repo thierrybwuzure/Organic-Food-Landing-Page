@@ -10,7 +10,7 @@ A responsive single-page landing site for a local organic food marketplace featu
 
 ## Overview
 
-Homegrown Organics connects consumers with local Belgian farms selling certified organic produce. This project is a static landing page built as a frontend training exercise at EFP Brussels.
+Homegrown Organics connects consumers with local Belgian farms selling certified organic produce. This project is a static landing page built as a frontend training exercise at freeCodeCamp that I improved and personalized.
 
 **Live Demo →** [View Site](https://thierrybwuzure.github.io/Organic-Food-Landing-Page/)
 
