@@ -1,5 +1,9 @@
 # Homegrown Organics
 
+<p>
+  <img src="images/preview.jpg" alt="Homegrown Organics Preview" width="800">
+</p>
+
 A responsive single-page landing site for a local organic food marketplace featuring Belgian farms, built with HTML5, CSS3 and vanilla JavaScript.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
